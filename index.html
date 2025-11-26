@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data Mahasiswa</title>
+</head>
+<body>
+
+    <h2>Formulir Data Mahasiswa</h2>
+
+    <form action="#" method="POST">
+
+        <!-- Nama -->
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama" placeholder="DAOLIAN AGIS HAMIDI" required><br><br>
+
+        <!-- NIM -->
+        <label for="nim">NIM:</label><br>
+        <input type="number" id="nim" name="nim" placeholder="2352004" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="hamidiagisna@gmail.com" required><br><br>
+
+        <!-- Program Studi -->
+        <label for="prodi">Program Studi:</label><br>
+        <select id="prodi" name="MANAJEMEN INFORMATEMATIKA" required>
+            <option value="">-- Pilih Prodi --</option>
+            <option value="TI">Teknik Informatika</option>
+            <option value="SI">Sistem Informasi</option>
+            <option value="MI">Manajemen Informatika</option>
+        </select><br><br>
+
+        <!-- Alamat -->
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat" rows="4" placeholder="LABUHAN HAJI,LOMBOK TIMUR"></textarea><br><br>
+
+        <!-- Jenis Kelamin -->
+       <label>Jenis Kelamin:</label><br>
+
+<input type="radio" id="laki" name="jk" value="Laki-laki" required>
+<label for="laki">Laki-laki</label><br>
+
+        <!-- Tombol Submit -->
+        <button type="submit">Kirim Data</button>
+
+    </form>
+
+</body>
+</html>
